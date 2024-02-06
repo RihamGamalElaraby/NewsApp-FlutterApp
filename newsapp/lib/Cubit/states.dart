@@ -1,10 +1,10 @@
 abstract class NewsStates {}
 
-class AppChangeModeStates extends NewsStates {}
-
 class NewsInitialState extends NewsStates {}
 
 class NewsBottomNavState extends NewsStates {}
+
+class AppChangeModeStates extends NewsStates {}
 
 class NewsGetBusinessLoadingState extends NewsStates {}
 
